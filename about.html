@@ -1,56 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/portfolio.css" />
-  </head>
-  <body>
-    <div class="content-container container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="content">
-            <h1 class="mb-4">Hi I am Aisling Kelly</h1>
-            <h2 class="mb-4">A front end developer, based in Dublin</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="" class="btn btn-branding">See my projects</a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/portfolio1.css" />
+  <script src="https://kit.fontawesome.com/870ef7a9ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Nav bar section -->
+  <div class="nav-container">
+    <nav class="d-flex justify-content-between">
+      <a href="/index.html">
+        <img src="images/Logo-black.png" alt="" class="logo d-none d-md-block" />
+        <img src="images/Logo-black.png" alt="" class="logo-small d-block d-md-none" />
+      </a>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li class="active"><a href="/about.html">About</a></li>
+        <li><a href="/work.html">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="content-container container">
+    <div class="page-header">
+      <h1>A little bit about me</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="about-content">
+          <p>
+            I am a front-end developer based in Dublin, Ireland ☘️.<br><br>
+
+            I enjoy creating beautiful things, and I have found a career that allows me to do just that, everyday,
+            whats not to love? ...With a little problem solving, its perfect!
+
+            <br><br>
+            My career aspiration is to continue to excel and become an expert in the field of software development,
+            specialising in front-end and design. As technology advances, so should developers, therefore, I strive to
+            continuously expand my knowledge on the news and trends in technology and challenging my skills.
+
+            <br><br>
+            Oh, and I also <b>love</b> dogs. 🐶
+          </p>
+          <a href="" class="btn btn-branding">See my projects</a>
         </div>
-        <div class="col-lg-6">
-          <img
-            src="images/Headshot-PNG-file-black-background-circle.png"
-            alt=""
-            class="img-fluid"
-          />
+      </div>
+      <div class="col-lg-4">
+        <img src="images/aisling-dog.jpg" alt="" class="about-headshot" />
+      </div>
+      <div class="col-lg-4">
+        <h5 class="about-header-five">👈 Me and Louis saying hi </h5>
+      </div>
+    </div>
+    <!-- Skills section -->
+    <h2 class="skills-header text-center m-5"><i class="fa-solid fa-laptop-code"></i> My Skills</h2>
+    <div class="my-skills text-center mt-8">
+      <div class="row g-2">
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-square-js"></i>
+          <p>JavaScript</p><br>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-react"></i>
+          <p>React</p>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-git-alt"></i>
+          <p>Git</p>
+        </div>
+        <div class="skill-item col-2">
+          <i class="fa-brands fa-github"></i>
+          <p>GitHub</p>
+        </div>
+        <div class="skill-item col-2">
+          <img src="images/microsoft_visual_studio_code_icon_137397.png" alt="" class="logo-image">
+          <p>VS Code</p>
+        </div>
+        <div class="skill-item col-2">
+          <img src="images/responsive-icon.png" alt="" class="logo-image">
+          <p>Responsive Web Development</p>
+
+        </div>
+        <div class="skill-item col-2">
+          <img src="images/adobe-creative-cloud-icon.png" alt="" class="logo-image">
+          <p>Adobe Creative Cloud</p>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="contact-box mb-5">
+      <div class="row footer-row">
+        <h2>Have a question?</h2>
+        <h5>Feel free to reach out to me:</h5>
+        <p class="text-muted">Lets work together!</p>
+        <a href="mailto:aislingkelly636@gmail.com" class="btn btn-branding"> Contact me</a>
+      </div>
+    </div>
+
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.instagram.com/aislingkelly636/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/aislingkelly636" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.facebook.com/aisling.kelly.319452" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </footer>
+</body>
+
 </html>
