@@ -16,55 +16,103 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="styles/portfolio.css" />
+  <link rel="stylesheet" href="styles/portfolio1.css" />
+  <script src="https://kit.fontawesome.com/870ef7a9ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!----- Nav bar section ----->
+  <div class="nav-container">
+    <nav class="d-flex justify-content-between">
+      <a href="/index.html">
+        <img src="images/Logo-black.png" alt="" class="logo d-none d-md-block" />
+        <img src="images/Logo-black.png" alt="" class="logo-small d-block d-md-none" />
+      </a>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li class="active"><a href="/work.html">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <div class="content-container container">
-    <div class="content-inner">
-      <h1 class="mb-5">Let's get in touch!</h1>
-      <h3>Email</h3>
-      <a href="mailto:aislingkelly636@gmail.com">aisling.kelly636@gmail.com</a>
-      <h3>LinkedIn</h3>
-      <a href="https://www.linkedin/aislingkelly636.com" target="_blank">@aisling</a>
-      <p>/aislingkelly636</p>
+    <div class="page-header">
+      <h1>My Projects</h1>
     </div>
   </div>
+
   <!-- Projects section -->
   <div class="row mb-5">
-    <div class="col d-none d-lg-block">
-      <img src="images/project-basics.png" class="img-fluid" alt="" />
+    <div class="project-item col-4">
+      <div class="project-col">
+        <img src="images/leap-motion1.png" class="project-image" alt="" />
+        <h3>Leap Motion Project</h3>
+        <div class="project-tools">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-java"></i>
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <p>Computer Science degree dissertation project. I created an educational application using an infrared Leap
+          Motion device. The system sucessfully detects and recognises sign language gestures by finding the Euclidean
+          distance between each of the bone co-ordinates. Gestures are then stored in a database for the system to
+          incrementally improve the accuracy for each gesture.</p>
+      </div>
     </div>
-    <div class="col-6">
-      <div class="project-description">
-        <h2 class="mb-5">SheCodes Basic project</h2>
-        <a href="#" class="btn btn-projects">Learn More</a>
+    <div class="project-item col-4">
+      <div class="project-col">
+        <img src="images/project-basics.png" class="project-image" alt="" />
+        <h3>SheCodes Basics project</h3>
+        <div class="project-tools">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-square-js"></i>
+        </div>
+        <p>SheCodes Basics workshop project. As the first of the SheCodes workshops, at the end of the 3 week workshops,
+          the SheCodes Basics final project involved creating a single landing page to showcase the skills and
+          technologies used during that workshop.</p>
+        <a href="https://www.shecodes.io/workshops/shecodes-basics-ed6644ab-b60b-4935-b8ba-897eb4b8d4e8/projects/1041684"
+          class="btn btn-branding"> Launch Project</a>
+      </div>
+    </div>
+    <div class="project-item col-4">
+      <div class="project-col">
+        <img src="images/project-plus.png" class="project-image" alt="" />
+        <h3>SheCodes Plus project</h3>
+        <div class="project-tools">
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+        </div>
+        <p>SheCodes Plus workshop project. At the end of the 8 week workshops, the SheCodes Plus final project
+          involved creating an interactive weather app. The app includes a search engine, API integration and real time
+          weather information for any location.</p>
+        <a href="https://www.shecodes.io/workshops/shecodes-plus-743adb66-a56a-4578-8e56-5af7acb7dd50/projects/1278017"
+          class="btn btn-branding"> Launch Project</a>
       </div>
     </div>
   </div>
-  <div class="row mb-5">
-    <div class="col-6">
-      <div class="project-description">
-        <h2 class="mb-5">SheCodes Plus project</h2>
-        <a href="#" class="btn btn-projects">Learn More</a>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="contact-box mb-5">
+      <div class="row footer-row">
+        <h2>Have a question?</h2>
+        <h5>Feel free to reach out to me:</h5>
+        <p class="text-muted">Lets work together!</p>
+        <a href="mailto:aislingkelly636@gmail.com" class="btn btn-branding"> Contact me</a>
       </div>
     </div>
-    <div class="col d-none d-lg-block">
-      <img src="images/project-plus.png" class="img-fluid" alt="" />
+    <div class="social-links d-flex justify-content-center">
+      <a href="https://www.instagram.com/aislingkelly636/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/aislingkelly636" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.facebook.com/aisling.kelly.319452" target="_blank"><i class="fa-brands fa-facebook"></i></a>
     </div>
-  </div>
-  <div class="row mb-5">
-    <div class="col d-none d-lg-block">
-      <img src="images/project-basics.png" class="img-fluid" alt="" />
-    </div>
-    <div class="col-6">
-      <div class="project-description">
-        <h2 class="mb-5">SheCodes Responsive project</h2>
-        <a href="#" class="btn btn-projects">Learn More</a>
-      </div>
-    </div>
-  </div>
-  </div>
+  </footer>
 
 </body>
 
