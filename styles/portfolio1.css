@@ -147,6 +147,10 @@ nav li.active a {
   margin: 0;
 }
 
+.headshot-col {
+  display: justify;
+}
+
 .btn-primary {
   background: var(--secondary-color);
   border-radius: 26px;
@@ -293,6 +297,16 @@ nav li.active a {
 .project-col .btn-branding:hover {
   background: var(--branding-color);
   color: var(--secondary-color);
+}
+
+/*----- Contact styling -----*/
+footer .contact-page {
+  margin-top: 100px;
+  padding: 40px 100px 40px 100px;
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  min-width: 100%;
+  text-align: center;
 }
 
 /* ----- Footer styling ----- */
